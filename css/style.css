@@ -1,0 +1,142 @@
+html {
+    min-height: 100%;
+	
+    background-image: url(../images/bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+	background-size:100% 100%;
+}
+
+body{
+    min-height:100%;
+	min-width:100%;
+	overflow:hidden;
+}
+#social
+{
+	position:absolute;
+	top:0%;
+	right:0%;
+	
+}
+#iiit
+{
+	position:absolute;
+	z-index:-1;
+	top:0%;
+	width:100%;
+	height:1%; 
+	left:0%;
+}
+.car1
+{
+	position:absolute;
+	z-index:-1;
+	top:70%;
+	width:100%;
+}
+.car2
+{
+	position:absolute;
+	z-index:-1;
+	bottom:2%;
+	width:100%;
+}
+.letter
+{
+	position:absolute;
+	left:30%;
+	top:7%;
+	z-index:-1;
+	
+}
+.logo
+{
+	position:absolute;
+	top:10%;
+	left:18%;
+	z-index:-1;
+}
+@font-face
+{
+	font-family:timer;
+	src: url('fonts/Dosis-ExtraBold.ttf');
+}
+.timer
+{
+	font-family:timer;
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:90px;
+	color:white;
+}
+#boat
+{
+	position:absolute;
+	left:0px;
+top:25%;
+	
+	width:100%;
+	z-index:-1;
+}
+/*--------------------------------------------------
+			SOCIAL-BOOKMARKS
+---------------------------------------------------*/
+.social-bookmarks {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.social-bookmarks li, .widget .social-bookmarks li, #footer .social-bookmarks li {
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	padding: 0px;
+	background-color: #ededed;
+	display: inline;
+	width: auto;
+}	
+
+.social-bookmarks li a {
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: background-color 5s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+}	
+
+.social-bookmarks li.facebook a {
+	background: url(../images/facebook.png) no-repeat 0 0;
+}
+.social-bookmarks li.facebook a:hover {
+	background-color: #3b5998;
+}
+
+
+.social-bookmarks li.googleplus a {
+	background: url(../images/googleplus.png) no-repeat 0 0;
+}
+.social-bookmarks li.googleplus a:hover {
+	background-color: #d94a39;
+}
+
+.social-bookmarks li.youtube a {
+	background: url(../images/youtube.png) no-repeat 0 0;
+}
+.social-bookmarks li.youtube a:hover {
+	background-color: #f45750;
+}
+
+.social-bookmarks li a:hover {
+	background-position: 0 -40px;
+}

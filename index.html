@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Aurora 2K14 | Coming Soon</title>
+
+<meta name = "keywords" content = "Aurora,aurora,aurora2014,iiitm,gwalior" />
+<meta name = "description" content = "Cultural Fest Of IIITM,Gwalior" />
+<meta name="author" content="AURORA 2K14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
+
+<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/letterstyle.css">
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/letterjs.js"></script>
+<script type="text/javascript" src="js/logofade.js"></script>
+
+</head>
+
+<body>
+
+<!--<div id="iiit">
+
+<img src="images/iiit.png" >
+</div>
+-->
+<div id="boat">
+
+<marquee direction="right" scrollamount="5"><img src="images/boat.gif" ></marquee>
+</div>
+<div id="fimage" class="logo">
+	<img src="images/blue.png">
+</div>
+<div id="car1" class="car1">
+<marquee direction="right" scrollamount="29"><img src="images/car1.png"></marquee>
+</div>
+<div id="car2" class="car2">
+<marquee direction="left" scrollamount="29"><img src="images/car2.png"></marquee>
+</div>
+
+<div class="letter" id="letter">
+	<h1>AURORA   <span class="txt-rotate fw700" data-period="2500" data-rotate='[ "7 - 9 March", "2K14", "Cultural Fest Of IIITM" ]'></span></h1>
+</div>
+
+<div id="social">
+	<ul class="social-bookmarks">
+		<li class="facebook"><a href="https://www.facebook.com/Aurora.IIITM" target="_blank">facebook</a></li>
+     	<li class="googleplus"><a href="https://www.facebook.com/Aurora.IIITM" target="_blank">googleplus</a></li>
+		<li class="youtube"><a href="https://www.youtube.com/user/auroraabviiitm" target="_blank">Youtube</a></li>
+	</ul>
+</div>
+<audio autoplay="autoplay" loop="loop">
+  <source src="back.mp3" type="audio/mpeg">
+  <source src="back.ogg" type="audio/ogg">
+  
+</audio>
+<script type="text/javascript">
+$(window).keydown(function(event) 
+{
+    if((event.keyCode == 107 && event.ctrlKey == true) || (event.keyCode == 109 && event.ctrlKey == true))
+    {
+        event.preventDefault();		
+    }
+    $(window).bind('mousewheel DOMMouseScroll', function(event) 
+    {
+        if(event.ctrlKey == true)
+        {
+            event.preventDefault();			
+        }
+    });
+});
+</script>
+</body>
+</html>
